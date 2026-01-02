@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  /* Ensure headings and any element using .font-playfair use Playfair Display */
+  /* Ensure headings and any element using .font-playfair use Roboto */
   h1,
   h2,
   h3,
@@ -11,6 +11,7 @@
   h5,
   h6,
   .font-playfair {
-    font-family: "Playfair Display", serif;
+    font-family: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+      "Helvetica", "Arial", sans-serif;
   }
 }
