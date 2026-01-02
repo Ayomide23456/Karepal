@@ -97,7 +97,7 @@
     "yaml": "^2.8.0"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --minify"
   },
   "keywords": [],
   "author": "",
